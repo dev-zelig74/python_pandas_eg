@@ -9,3 +9,7 @@ st.write(s)
 
 dates = pd.date_range("20130101", periods=6)
 st.write(dates)
+
+df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list("ABCD"))
+st.write(df)
+
